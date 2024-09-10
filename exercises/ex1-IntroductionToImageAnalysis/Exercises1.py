@@ -74,3 +74,15 @@ max_bincount = np.argmax(h[0])
 print("max_bincount " + str(h[0][max_bincount]))
 print("bin_edge left "+ str(h[1][max_bincount]))
 print("bin_edge right "+ str(h[1][max_bincount+1]))
+
+#Exercise 10: What is the pixel value at (r, c) = (110, 90) ?
+
+r = 100
+c = 50
+im_val = im_org[r, c]
+print(f"The pixel value at (r,c) = ({r}, {c}) is: {im_val}")
+
+r = 110
+c = 90
+
+print(f"The pixel value at (r,c) = ({r}, {c}) is: {im_val}")
